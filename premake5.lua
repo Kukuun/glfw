@@ -2,8 +2,8 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 
-	targetdir ("Bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("Bin-Int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
+	objdir ("Binaries/Intermediate/" .. outputdir .. "/%{prj.name}")
 
 	files
 	{
