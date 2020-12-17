@@ -100,5 +100,4 @@ tests/window
 tests/windows
 
 #Khrysalis specific.
-bin
-bin-int
+Binaries
